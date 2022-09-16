@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MetricsConversion.Data\MetricsConversion.Data.csproj" />
+    <ProjectReference Include="..\MetricsConversion.Domain\MetricsConversion.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

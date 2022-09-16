@@ -1,0 +1,5 @@
+{
+  "DataProvider": "postgresql",
+  "DefaultConnectionString": "Server=localhost;Port=5432;User ID=postgres;Password=P@ssword1;Database=metricconversion;Pooling=true;",
+  "RawDataSettings": {}
+}

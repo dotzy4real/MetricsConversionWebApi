@@ -1,0 +1,34 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="6.0.0" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="7.0.0" />
+    <PackageReference Include="fluentmigrator" Version="3.2.6" />
+    <PackageReference Include="fluentmigrator.runner" Version="3.2.6" />
+    <PackageReference Include="Linq2DB" Version="2.9.8" />
+    <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.2.0" />
+    <PackageReference Include="microsoft.entityframeworkcore.design" Version="3.1.4">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="microsoft.entityframeworkcore.tools" Version="3.1.4">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.Extensions.FileProviders.Abstractions" Version="6.0.0" />
+    <PackageReference Include="MiniProfiler.Shared" Version="4.2.22" />
+    <PackageReference Include="newtonsoft.json" Version="13.0.1" />
+    <PackageReference Include="npgsql.entityframeworkcore.postgresql" Version="3.1.4" />
+    <PackageReference Include="Swashbuckle.AspNetCore.SwaggerGen" Version="6.4.0" />
+    <PackageReference Include="system.net.nameresolution" Version="4.3.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MetricsConversion.Domain\MetricsConversion.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
