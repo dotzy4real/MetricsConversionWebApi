@@ -12,7 +12,7 @@ This repo contains a RESTful service built for the conversion of metric units to
   - You can call the API with the use of client tools like postman
 
 ## API End Point
-- The Calculate a given metrics and vice versa you make use of the endpoint: POST: {baseurl}/api/MetricConvertion/ProcessUnitConversion
+- To Calculate a given metrics and vice versa you make use of the endpoint: POST: {baseurl}/api/MetricConvertion/ProcessUnitConversion
 - A sample body to be used for the payload request is as given below: {
     "FromMetric" : "Farenheit",
     "ToMetric" : "Celcius",
